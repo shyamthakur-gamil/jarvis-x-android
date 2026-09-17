@@ -28,7 +28,7 @@ jobs:
 
       - name: Extract JARVIS X project
         run: |
-          unzip -q "Jarvis-X-Android-Enhanced.zip" -d extracted
+          unzip -q "Jarvis-X-Android-Face-Fixed.zip" -d extracted
 
       - name: Build JARVIS X APK
         working-directory: extracted/jarvis-android
